@@ -1,5 +1,5 @@
 body {
-    background-color: #434C5E;
+    background-color: #2E3440;
 }
 
 hr {
@@ -11,3 +11,31 @@ hr {
     margin-left: 10%;
 
 }
+p {
+    color: #81A1C1;
+}
+li {
+    color: #81A1C1;
+}
+
+td {
+    color: #81A1C1;
+}
+th {
+    color: #81A1C1;
+}
+
+h1 {
+    color: #D8DEE9;
+    font-size: 40px;
+}
+
+h3 {
+    color: #D8DEE9;
+    font-size: 40px;
+}
+
+a {
+    color:#A3BE8C;
+}
+
