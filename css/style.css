@@ -6,7 +6,8 @@ hr {
     align-items: left;
     border-style: dotted none none; 
     border-width: 8px;
-    border-color: #2E3440;
+    /* border-color: #2E3440; */
+    border-color: lightgrey;
     margin-right: 80%;
     margin-left: 10%;
 
@@ -14,6 +15,7 @@ hr {
 p {
     color: #81A1C1;
 }
+
 li {
     color: #81A1C1;
 }
@@ -21,6 +23,7 @@ li {
 td {
     color: #81A1C1;
 }
+
 th {
     color: #81A1C1;
 }
@@ -30,14 +33,26 @@ h1 {
     font-size: 40px;
 }
 
+
 h3 {
     color: #D8DEE9;
     font-size: 40px;
 }
 
-a {
-    color:#A3BE8C;
+
+.contact {
+    color: #BF616A;
 }
+
+.hobbies {
+    color:#EBCB8B;
+}
+
+label {
+    color: #D8DEE9;
+}
+
+
 
 img {
     background-color : #3B4252;
