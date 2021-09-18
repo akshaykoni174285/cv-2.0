@@ -1,3 +1,14 @@
+
+
 body {
-    background-color:blanchedalmond;
+    margin: 0 0 0 0;
+   text-align: center;
+}
+
+.ground {
+    background-color: yellow;
+}
+
+.bottom-cloud {
+    position: absolute;
 }
