@@ -1,14 +1,43 @@
 
-
 body {
     margin: 0 0 0 0;
-   text-align: center;
+    text-align: center;    
 }
 
-.ground {
-    background-color: yellow;
+.top-container {
+    padding-top: 120px;
+    background-color: #4C566A;
+    position: relative;
+}
+
+.middle-container {
+    height: 200px;
+    width: 200px;
+    background-color:red;
+}
+.bottom-container {
+    
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.top-cloud {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    right: 400px;
+    top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
+    width: 15%;
+    height: auto;
+    top: 300px;
+    left: 350px;
+}
+.mountain {
+    width: 50%;
+    height:auto;
 }
