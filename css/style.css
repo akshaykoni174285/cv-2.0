@@ -1,61 +1,73 @@
-
 body {
-    font-family: 'Merriweather Sans', sans-serif;
-    margin: 0 0 0 0;
-    text-align: center;  
+  font-family: "Merriweather Sans", sans-serif;
+  margin: 0 0 0 0;
+  text-align: center;
+  background-color: #D8DEE9;
 }
 
 h1 {
-    color: #2E3440;
-    font-family: 'Nothing You Could Do', cursive;
+  color: #2e3440;
+  font-family: "Nothing You Could Do", cursive;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 h3 {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
+.skill-row {
+  padding: 50px;
+  background-color: #d8dee9;
+}
+
+
+.yay {
+    font-size: 20px;
+}
+
+.skill1 {
+  background-color: #e5e9f0;
+  padding: 50px;
+}
+
 .skillimages {
-    width: 100px;
+  width: 400px;
 }
 
 .top-container {
-    background-color: #88C0D0;
-    padding-top: 120px;
-    position: relative;
+  background-color: #88c0d0;
+  padding-top: 120px;
+  position: relative;
 }
 
 .middle-container {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 .bottom-container {
-    
-    
 }
 .profile {
-    width: 300px;
-    margin: 0 auto;
+  width: 300px;
+  margin: 0 auto;
 }
-
 
 .mountain {
-    height: 50%;
-    width: auto;
+  height: 50%;
+  width: auto;
 }
 .top-cloud {
-    position: absolute;
-    width: 15%;
-    height: auto;
-    right: 400px;
-    top: 50px;
+  position: absolute;
+  width: 15%;
+  height: auto;
+  right: 400px;
+  top: 50px;
 }
 
 .bottom-cloud {
-    height: auto;
-    left: 350px;
-    position: absolute;
-    top: 300px;
-    width: 15%;
+  height: auto;
+  left: 350px;
+  position: absolute;
+  top: 300px;
+  width: 15%;
 }
-
