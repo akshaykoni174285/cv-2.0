@@ -16,6 +16,9 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
 }
+.skillimages {
+    width: 100px;
+}
 
 .top-container {
     background-color: #88C0D0;
@@ -24,12 +27,17 @@ h3 {
 }
 
 .middle-container {
-    
+    padding-top: 60px;
 }
 .bottom-container {
     
     
 }
+.profile {
+    width: 300px;
+    margin: 0 auto;
+}
+
 
 .mountain {
     height: 50%;
