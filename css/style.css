@@ -3,23 +3,56 @@ body {
   margin: 0 0 0 0;
   text-align: center;
   background-color: #D8DEE9;
+  padding-bottom: 0;
+}
+p {
+  color: #3B4252;
 }
 
 h1 {
   color: #2e3440;
   font-family: "Nothing You Could Do", cursive;
+  font-size: 5.5rem;
+  margin-bottom: 50px;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  color: #3B4252;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
+  color:#3B4252;
 }
 
 .skill-row {
   padding: 50px;
   background-color: #d8dee9;
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  margin: auto;
+  line-height: 2;
+  padding: 125px;
+
+ 
+
+
+  
+}
+.skill1 {
+    padding: 50px;
+  background-color: #e5e9f0;
+  
+  margin: 50px auto 100px auto;
+  text-align: right;
+  line-height: 2;
+  padding: 125px;
+
+}
+
+a {
+  color: #3B4252;
 }
 
 
@@ -27,19 +60,41 @@ h3 {
     font-size: 20px;
 }
 
-.skill1 {
+/* .skill1 {
   background-color: #e5e9f0;
   padding: 50px;
-}
+  text-align: left;
+  line-height: 2;
+  if you want different color background then you can remove width section form both the div 
+  width: 50%; 
+  margin: 100px auto 100px auto;
 
-.skillimages {
-  width: 400px;
+} */
+
+.skillimage {
+  float: left;
+  width: 30%;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.skillimages{
+  float: right;
+  width: 30%;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  
 }
 
 .top-container {
   background-color: #88c0d0;
-  padding-top: 120px;
+  padding-top: 150px;
   position: relative;
+  font-size: 2.5rem;
+  
+}
+
+.subtitle {
+  font-weight: normal;
 }
 
 .middle-container {
@@ -53,8 +108,10 @@ h3 {
 }
 
 .mountain {
-  height: 50%;
+  height: 800px;
   width: auto;
+  margin-top: 17px;
+  margin-bottom: 0;
 }
 .top-cloud {
   position: absolute;
@@ -68,6 +125,6 @@ h3 {
   height: auto;
   left: 350px;
   position: absolute;
-  top: 300px;
+  top: 400px;
   width: 15%;
 }
