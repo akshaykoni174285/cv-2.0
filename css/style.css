@@ -1,70 +1,138 @@
 body {
-    background-color: #2E3440;
-}
-
-hr {
-    align-items: left;
-    border-style: dotted none none; 
-    border-width: 8px;
-    /* border-color: #2E3440; */
-    border-color: lightgrey;
-    margin-right: 80%;
-    margin-left: 10%;
-
+  background-color: #D8DEE9;
+  font-family: "Merriweather Sans", sans-serif;
+  margin: 0 0 0 0;
+  padding-bottom: 0;
+  text-align: center;
 }
 p {
-    color: #81A1C1;
-}
-
-li {
-    color: #81A1C1;
-}
-
-td {
-    color: #81A1C1;
-}
-
-th {
-    color: #81A1C1;
+  color: #3B4252;
 }
 
 h1 {
-    color: #D8DEE9;
-    font-size: 40px;
+  color: #2e3440;
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 5rem;
+  margin-bottom: 50px;
 }
 
-
+h2 {
+  color: #3B4252;
+  font-family: "Montserrat", sans-serif;
+}
 h3 {
-    color: #D8DEE9;
-    font-size: 40px;
+  color:#3B4252;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-label {
-    color: #D8DEE9;
-}
-
-img:hover {
-    background-color : #4C566A;
-    border-radius: 20px;
-}
-
-
-/******************************************************** Class Method  ***************************************************************/
-
-.contact {
-    color: #BF616A;
-}
-
-.hobbies {
-    color:#EBCB8B;
-}
-
-.image {
-    background-color:#2E3440 ;
-    border-radius : 50px;
+.skill-row {
+  /* width: 50%; */
+  background-color: #d8dee9;
+  line-height: 2;
+  margin: 50px auto 100px auto;
+  margin: auto;
+  padding: 150px 400px;
+  padding: 50px;
+  text-align: left;
 
 }
 
-/******************************************************** ID Method  ***************************************************************/
+.skill1 {
+  /* width: 50%; */
+  background-color: #e5e9f0;
+  line-height: 2;
+  margin: 50px auto 100px auto;
+  margin: auto;
+  padding: 150px 400px;
+  padding: 50px;
+  text-align: right;
 
+}
+
+a {
+  color: #3B4252;
+}
+
+
+.yay {
+    font-size: 20px;
+}
+
+/* .skill1 {
+  background-color: #e5e9f0;
+  padding: 50px;
+  text-align: left;
+  line-height: 2;
+  if you want different color background then you can remove width section form both the div 
+  width: 50%; 
+  margin: 100px auto 100px auto;
+
+} */
+
+.paragraph {
+  width: 900px;
+}
+
+.skillimage {
+  /* padding: 50px; */
+  bottom: 20px;
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  position: relative;
+  width: 250px;
+}
+.skillimages{
+  /* padding: 100px; */
+  bottom: 20px;
+  float: right;
+  margin-bottom: auto;
+  margin-left: 30px;
+  margin-top: auto;
+  position: relative;
+  width: 250px;
+}
+
+.top-container {
+  background-color: #88c0d0;
+  font-size: 2.5rem;
+  padding-top: 150px;
+  position: relative;
+  
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.middle-container {
+  padding-top: 60px;
+}
+.bottom-container {
+}
+.profile {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.mountain {
+  height: 600px;
+  margin-bottom: 0;
+  margin-top: 17px;
+  width: auto;
+}
+.top-cloud {
+  position: absolute;
+  width: 15%;
+  height: auto;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  height: auto;
+  left: 350px;
+  position: absolute;
+  top: 400px;
+  width: 15%;
+}
