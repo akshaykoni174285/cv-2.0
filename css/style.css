@@ -28,7 +28,7 @@ h3 {
 
 .skill-row {
   padding: 50px;
-  background-color: #d8dee9;
+  background-color: #e5e9f0;
   margin: 50px auto 100px auto;
   text-align: left;
   margin: auto;
@@ -41,9 +41,12 @@ h3 {
 
   
 }
+
+
 .skill1 {
   padding: 50px;
-  background-color: #e5e9f0;
+  /* background-color: #e5e9f0; */
+  background-color: #d8dee9;
   /* width: 50%; */
   margin: 50px auto 100px auto;
   text-align: left;
@@ -53,6 +56,12 @@ h3 {
 
 }
 
+.top-description {
+  background-color: #e5e9f0;
+  /* margin-top: 60px; */
+  padding-top: 60px;
+}
+
 a {
   color: #3B4252;
 }
@@ -60,6 +69,18 @@ a {
 
 .yay {
     font-size: 20px;
+    
+}
+
+.discription {
+  width: 50%;
+  /* margin: 0 auto 70px auto; */
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+.skills {
+  padding-top: 70px;
 }
 
 /* .skill1 {
@@ -72,6 +93,9 @@ a {
   margin: 100px auto 100px auto;
 
 } */
+.skills-heading {
+  text-decoration: underline;
+}
 
 .paragraph {
   /* width: 900px; */
@@ -105,6 +129,17 @@ a {
   /* padding: 100px; */
   
 }
+.horizontal {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 150px;
+  height: 2px;
+  border-top: 10px dotted;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  color: #3B4252;
+}
 
 .top-container {
   background-color: #88c0d0;
@@ -113,13 +148,25 @@ a {
   font-size: 2.5rem;
   
 }
+.bottom-strip {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* background-color: #3B4252; */
+}
+
+
+.contact-me {
+  padding-bottom: 50px;
+  /* padding-top: 100px; */
+}
 
 .subtitle {
   font-weight: normal;
 }
 
 .middle-container {
-  padding-top: 60px;
+  /* padding-top: 60px; */
+  background-color: #e5e9f0;
 }
 .bottom-container {
 }
