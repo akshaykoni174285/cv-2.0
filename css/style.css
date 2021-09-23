@@ -1,4 +1,5 @@
 body {
+
   font-family: "Merriweather Sans", sans-serif;
   margin: 0 0 0 0;
   text-align: center;
@@ -64,7 +65,19 @@ h3 {
 
 a {
   color: #3B4252;
+
+ 
 }
+
+.skill1 {
+  /* width: 50%; */
+  background-color: #e5e9f0;
+  line-height: 2;
+  margin: 50px auto 100px auto;
+  margin: auto;
+  padding: 150px 400px;
+  padding: 50px;
+  text-align: right;
 
 
 .yay {
@@ -160,6 +173,8 @@ a {
   /* padding-top: 100px; */
 }
 
+
+
 .subtitle {
   font-weight: normal;
 }
@@ -167,19 +182,30 @@ a {
 .middle-container {
   /* padding-top: 60px; */
   background-color: #e5e9f0;
+
+  
+
 }
 .bottom-container {
 }
 .profile {
+
   width: 300px;
   margin: 0 auto;
+
+  
+
 }
 
 .mountain {
   height: 600px;
+
   width: auto;
   margin-top: 17px;
   margin-bottom: 0;
+
+ 
+
 }
 .top-cloud {
   position: absolute;
