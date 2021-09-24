@@ -42,6 +42,16 @@ h3 {
   
 }
 
+.contact-description {
+  font-family: "Montserrat", sans-serif;
+  color:#3B4252;
+  padding: 0;
+}
+
+/* .btn {
+  bu
+} */
+
 
 .skill1 {
   padding: 50px;
@@ -157,6 +167,8 @@ a {
 
 .contact-me {
   padding-bottom: 50px;
+  padding-top: 50px;
+
   /* padding-top: 100px; */
 }
 
@@ -168,8 +180,7 @@ a {
   /* padding-top: 60px; */
   background-color: #e5e9f0;
 }
-.bottom-container {
-}
+
 .profile {
   width: 300px;
   margin: 0 auto;
@@ -180,6 +191,8 @@ a {
   width: auto;
   margin-top: 17px;
   margin-bottom: 0;
+  position: relative;
+  top: 10px;
 }
 .top-cloud {
   position: absolute;
