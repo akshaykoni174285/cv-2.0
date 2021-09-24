@@ -209,3 +209,36 @@ a {
   top: 400px;
   width: 15%;
 }
+
+
+.BUTTON_DUK {
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-family: Brush Script MT;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  /* border-style-hover: solid;
+  border-width-hover: 1; */
+  background-color: #81A1C1;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #81A1C1 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_DUK:hover {
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  text-decoration: none;
+}
